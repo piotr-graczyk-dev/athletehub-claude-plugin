@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "athletehub": {
+      "type": "http",
+      "url": "https://app.athletehub.pro/mcp"
+    }
+  }
+}

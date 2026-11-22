@@ -1,0 +1,17 @@
+{
+  "name": "athletehub",
+  "owner": {
+    "name": "AthleteHub",
+    "email": "support@athletehub.pro"
+  },
+  "metadata": {
+    "description": "AthleteHub plugin for Claude: training load reviews, calendar planning and workout logging."
+  },
+  "plugins": [
+    {
+      "name": "athletehub",
+      "source": "./",
+      "description": "Connect Claude to AthleteHub, the strength and conditioning app for coaches and athletes."
+    }
+  ]
+}

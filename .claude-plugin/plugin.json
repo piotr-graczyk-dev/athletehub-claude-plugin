@@ -1,0 +1,22 @@
+{
+  "name": "athletehub",
+  "displayName": "AthleteHub",
+  "version": "1.0.0",
+  "description": "Connect Claude to AthleteHub, the strength and conditioning app for coaches and athletes: review training load and readiness, plan calendar weeks, and log today's session.",
+  "author": {
+    "name": "AthleteHub",
+    "email": "support@athletehub.pro",
+    "url": "https://athletehub.pro/en/"
+  },
+  "homepage": "https://athletehub.pro/en/",
+  "repository": "https://github.com/piotr-graczyk-dev/athletehub-claude-plugin",
+  "license": "MIT",
+  "keywords": ["strength-and-conditioning", "coaching", "training-load", "wellness", "workouts"],
+  "network": {
+    "hosts": ["app.athletehub.pro"]
+  },
+  "privacyPolicyUrl": "https://athletehub.pro/en/privacy-policy",
+  "termsOfServiceUrl": "https://athletehub.pro/en/terms-of-service",
+  "supportUrl": "https://athletehub.pro/en/support",
+  "documentationUrl": "https://github.com/piotr-graczyk-dev/athletehub-claude-plugin#readme"
+}
