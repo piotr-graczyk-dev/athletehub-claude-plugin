@@ -14,7 +14,7 @@ Read-only. Do not call any write tool in this review.
    - A group: `list_groups`, then use its `athlete_ids`. Get names from `list_athletes`.
    - One athlete: `list_athletes` and match the name. Ask when two names match.
 3. Pick the week. Default: the last seven days ending today, Monday to Sunday if the coach says "this week". Say the dates you use.
-4. For each athlete, collect (pass `next_cursor` back as `cursor` until it is null):
+4. For each athlete, collect (send `next_cursor` back as `cursor` until it is null):
    - `list_workout_feedback` with `athlete_id`, `from`, `to`: `session_rpe`, `duration_seconds`, `training_load_au` (session RPE x minutes).
    - The same call for the previous three weeks, to compare.
    - `list_workouts` with `athlete_id`, `from`, `to`: count `completed`, `partially_completed`, `abandoned`, and `planned` workouts dated before today (missed).
